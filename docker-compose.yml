@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  micro-service-exchange-rate:
+    build: .
+    image: micro-service-exchange-rate
+    ports:
+      - "8080:8080"
